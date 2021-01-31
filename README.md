@@ -206,3 +206,42 @@ functionality.
 MIT License
 
 Copyright (c) 2019 Alex Pickering
+
+## 환율 계산
+ const exChange = [
+    { key: "호주 달러", value: "AUD" },
+    { key: "브라질 헤알", value: "BRL" },
+    { key: "영국 파운드", value: "GBP" },
+    { key: "불가리아 레프", value: "BGN" },
+    { key: "캐나다 달러", value: "CAD" },
+    { key: "중국 위안", value: "CNY" },
+    { key: "크로아티아 쿠나", value: "HRK" },
+    { key: "체코 코루나", value: "CZK" },
+    { key: "덴마크 크론", value: "DKK" },
+    { key: "유럽 유로", value: "EUR" },
+    { key: "홍콩 달러", value: "HKD" },
+    { key: "헝가리 포린트", value: "HUF" },
+    { key: "아이슬란드 크로나", value: "ISK" },
+    { key: "인도네시아 루피아", value: "IDR" },
+    { key: "인도 루피", value: "INR" },
+    { key: "이스라엘 세켈", value: "ILS" },
+    { key: "일본 엔", value: "JPY" },
+    { key: "말레이시아 링깃", value: "MYR" },
+    { key: "멕시코 페소", value: "MXN" },
+    { key: "뉴질랜드 달러", value: "NZD" },
+    { key: "노르웨이 크론", value: "NOK" },
+    { key: "필리핀 페소", value: "PHP" },
+    { key: "폴란드 제오티", value: "PLN" },
+    { key: "루마니아 레우", value: "RON" },
+    { key: "러시안 러블", value: "RUB" },
+    { key: "싱가포르 달러", value: "SGD" },
+    { key: "남아프리카 랜드", value: "ZAR" },
+    { key: "한국 원", value: "원" },
+    { key: "스웨덴 크로나", value: "SEK" },
+    { key: "스위스 프랑", value: "CHF" },
+    { key: "타이 바트", value: "THB" },
+    { key: "터키 리라", value: "TRY" },
+    { key: "미국 달러", value: "USD" },
+  ];
+  
+  위와 같은 국가의 환율을 계산할 수 있으며, 1원, 1엔, 1달러 기준으로 사용된다! 
